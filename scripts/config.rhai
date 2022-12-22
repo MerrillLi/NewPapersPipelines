@@ -8,7 +8,7 @@ let titles_model = [
     // RecSys
     "Stream", "Streaming", "Recommendation", "Embedding",
     // Data Mining
-    "Time Series", "Predict", "Forecast", "Hyperbolic"
+    "Time Series", "Predict", "Forecast", "Hyperbolic", "Graph Neural Network"
 ];
 
 let titles =  titles_model + titles_type;
@@ -17,11 +17,13 @@ let authors_array = [
     // Meta Learning & Transfer Learning
     "Chelsea Finn", "Qiang Yang", "Ying Wei",
     // Mobile Intelligence
-    "Song Guo", "Xu Chen", "Song Han", "Ju Ren",
+    "Song Guo", "Xu Chen", "Song Han", "Ju Ren", "Vincent Poor", "H. Vincent Poor"
     // RecSys
     "Xiangnan He", "Min Zhang",
     // Data Mining
-    "Philip S. Yu", "Jiawei Han", "Jure Leskovec", "Hui Xiong", "Irwin King"
+    "Philip S. Yu", "Jiawei Han", "Jure Leskovec", "Hui Xiong", "Irwin King",
+    // Network
+    "Haipeng Dai", "Kai Chen"
 ];
 
 let conferences = [
@@ -42,7 +44,10 @@ let conferences = [
     // System
     "FSE/ESEC", "ICSE", "ISSTA", "OSDI", "SOSP",
     // Security
-    "AsiaCCS", "CCS", "DSN", "ESORICS", "EuroS&P", "ICICS", "NDSS", "RAID", "SP", "USENIX Security"
+    "AsiaCCS", "CCS", "DSN", "ESORICS", "EuroS&P", "ICICS", "NDSS", "RAID", "SP", "USENIX Security",
+    // Network
+    "INFOCOM", "NSDI", "MobiCom", "MobiSys", "SIGCOMM", "IWQoS", "ICDCS"
+
 ];
 
 let start = conferences.shift();
