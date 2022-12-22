@@ -17,7 +17,7 @@ let authors_array = [
     // Meta Learning & Transfer Learning
     "Chelsea Finn", "Qiang Yang", "Ying Wei",
     // Mobile Intelligence
-    "Song Guo", "Xu Chen", "Song Han", "Ju Ren", "Vincent Poor", "H. Vincent Poor"
+    "Song Guo", "Xu Chen", "Song Han", "Ju Ren", "Vincent Poor", "H. Vincent Poor",
     // RecSys
     "Xiangnan He", "Min Zhang",
     // Data Mining
