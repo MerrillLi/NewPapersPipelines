@@ -1,28 +1,48 @@
-let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["BERT", "GPT", "Transformer"];
-let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised"];
-let titles =  titles_model + titles_method + titles_type;
-let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio"];
+let titles_type = ["Dataset", "Survey", "Benchmark"];
+
+let titles_model = [
+    // Meta Learning & Transfer Learning
+    "Transfer", "Meta-Learning", 
+    // Mobile Intelligence
+    "Mobile", "Quantized", "Quantization", "Communication", "Federated",
+    // RecSys
+    "Stream", "Streaming", "Recommendation", "Embedding",
+    // Data Mining
+    "Time Series", "Predict", "Forecast", "Hyperbolic"
+];
+
+let titles =  titles_model + titles_type;
+
+let authors_array = [
+    // Meta Learning & Transfer Learning
+    "Chelsea Finn", "Qiang Yang", "Ying Wei",
+    // Mobile Intelligence
+    "Song Guo", "Xu Chen", "Song Han", "Ju Ren",
+    // RecSys
+    "Xiangnan He", "Min Zhang",
+    // Data Mining
+    "Philip S. Yu", "Jiawei Han", "Jure Leskovec", "Hui Xiong", "Irwin King"
+];
 
 let conferences = [
     // AI
-    "AAAI", "AAMAS", "ACM MM", "AISTATS", "ALT", "CEC", "ECAI", "FUZZ IEEE", "GECCO", "ICANN", "ICAPS", "ICCBR", "ICONIP", "ICRA", "ICTAI", "IJCAI", "IJCNN", "IROS", "KR", "KSEM", "SIGGRAPH", "STOC", "UAI", "PPSN", "PRICAI", "TAAI",
+    "AAAI", "ACM MM", "AISTATS", "FUZZ IEEE", "ICRA", "IJCAI", "IJCNN", "IROS", "SIGGRAPH", "STOC", "UAI", "TAAI",
     // CV
-    "3DV", "ACCV", "ACM MM", "BMVC", "CVPR", "ECCV", "ICCV", "ICDAR", "ICIP", "ICME", "ICPR", "IEEE VIS", "MICCAI", "SIGGRAPH", "WACV",
+    "ACM MM", "CVPR", "ECCV", "ICCV", "MICCAI", "SIGGRAPH",
     // DM
-    "AKBC", "APWeb", "CIKM", "DASFAA", "ECML-PKDD", "ICDE", "ICDM", "ICDT", "KDD", "LREC", "MDM", "PAKDD", "PODS", "RecSys", "SDM", "SIGMOD", "VLDB", "WSDM", "WWW", "EDBT", "CIDR",
+    "CIKM", "DASFAA", "ECML-PKDD", "ICDE", "ICDM", "KDD", "PODS", "RecSys", "SDM", "SIGMOD", "VLDB", "WSDM", "WWW",
     // IR
     "ECIR", "ESWC", "ICMR", "ICTIR", "ISWC", "SIGIR",
     // ML
     "ACML", "AISTATS", "ECML", "ICLR", "ICML", "ML4H", "NeurIPS", "NIPS", "UAI",
     // NLP
-    "AACL", "ACL", "CCL", "COLING", "COLT", "CoNLL", "EACL", "EMNLP", "ICASSP", "ICDAR", "ICONIP", "INTERSPEECH", "LREC", "NAACL", "NLPCC", "RepL4NLP", "SIGDIAL", "SemEval", "WANLP", "WASSA", "WOAH",
+    "AACL", "ACL", "CCL", "COLING", "COLT", "EMNLP", "ICASSP", "INTERSPEECH", "NAACL", "NLPCC", "RepL4NLP", "SIGDIAL",
     // Arch
     "ASPLOS", "ATC", "DATE", "EuroSys", "FAST", "HPCA", "ISCA", "MICRO", "PPoPP", "SC", "SoCC",
     // System
     "FSE/ESEC", "ICSE", "ISSTA", "OSDI", "SOSP",
     // Security
-    "ACSA", "AsiaCCS", "CCS", "DSN", "ESORICS", "EuroS&P", "ICICS", "NDSS", "RAID", "SP", "USENIX Security"
+    "AsiaCCS", "CCS", "DSN", "ESORICS", "EuroS&P", "ICICS", "NDSS", "RAID", "SP", "USENIX Security"
 ];
 
 let start = conferences.shift();
